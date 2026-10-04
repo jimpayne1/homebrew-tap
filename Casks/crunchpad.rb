@@ -1,6 +1,6 @@
 cask "crunchpad" do
-  version "1.0.0"
-  sha256 "bda6c29eca01a0c488c57433a3854eff1d4d35d5be3578a10cca86c9566e2002"
+  version "1.0.1"
+  sha256 "f543aa8c02fe925f56a2b00188566e842ca759bcc270249dd92ad3724dfc5367"
 
   url "https://github.com/jimpayne1/crunchpad/releases/download/v#{version}/Crunchpad-#{version}.dmg"
   name "Crunchpad"
@@ -13,7 +13,7 @@ cask "crunchpad" do
   end
 
   depends_on arch: :arm64
-  depends_on macos: :tahoe
+  depends_on macos: :sequoia
 
   app "Crunchpad.app"
 
