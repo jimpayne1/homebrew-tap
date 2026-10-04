@@ -1,6 +1,6 @@
 cask "crunchpad" do
-  version "1.0.2"
-  sha256 "598eaba2efba5360956c2ad40446efe736c2c502761f12922c37cd7747da763e"
+  version "1.0.3"
+  sha256 "54a9d9a6531cf0ca4fe39f294cf1c9b98787c6382518f59581134b71e99cbe30"
 
   url "https://github.com/jimpayne1/crunchpad/releases/download/v#{version}/Crunchpad-#{version}.dmg"
   name "Crunchpad"
